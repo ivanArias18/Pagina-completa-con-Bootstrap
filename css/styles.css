@@ -1,5 +1,5 @@
 .carousel-item img {
-    height: 60vh; /* 60% de la altura de la ventana */
-    object-fit:fill ;
+    height: 70vh; /* 60% de la altura de la ventana */
+    object-fit: contain;
     object-position: center;
 }
