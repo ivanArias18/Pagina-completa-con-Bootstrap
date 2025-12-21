@@ -19,7 +19,7 @@ body{
     object-position: center;
     width: 100%;
     height: 100%;
-  object-fit: cover;      /* llena todo sin deformarse */
+    object-fit: cover;      /* llena todo sin deformarse */
 }
 
 .separador{
@@ -50,4 +50,7 @@ body{
 footer{
     width: 100%;
     height: 100%;
+}
+
+.foto_menu{
 }
