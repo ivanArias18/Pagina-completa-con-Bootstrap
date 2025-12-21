@@ -4,13 +4,22 @@ body{
     background-repeat: no-repeat; /* No se repite */
     background-position: center; /* Centra la imagen */
     background-attachment: fixed; /* Opcional: fija al hacer scroll */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;   /* que ocupe todo el alto de la pantalla [web:5] */
+
 }
 
-
+.logo{
+    height: 50px;
+}
 .carousel-item img {
-    height: 70vh; /* 60% de la altura de la ventana */
+    height: 70vh; /* 70% de la altura de la ventana */
     object-fit: contain;
     object-position: center;
+    width: 100%;
+    height: 100%;
+  object-fit: cover;      /* llena todo sin deformarse */
 }
 
 .card img{
@@ -18,7 +27,23 @@ body{
     background-color: black;
 }
 
-.card .card-body{
+.card{
+    padding-top: 10px;
     text-align: center;
+    background-color:#ddc9a7;
 }
 
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card .btn:hover{
+    background-color: red;
+}
+
+
+footer{
+    width: 100%;
+    height: 100%;
+}
