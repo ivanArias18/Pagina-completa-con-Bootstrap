@@ -22,9 +22,16 @@ body{
   object-fit: cover;      /* llena todo sin deformarse */
 }
 
+.separador{
+    text-align: center;
+}
+
+
+
 .card img{
     height: 25rem;
     background-color: black;
+    object-fit: cover;
 }
 
 .card{
@@ -33,9 +40,7 @@ body{
     background-color:#ddc9a7;
 }
 
-.card-body{
-    
-}
+
 
 .card .btn:hover{
     background-color: red;
