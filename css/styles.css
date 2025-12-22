@@ -33,7 +33,8 @@
 
 
 .card .btn:hover{
-    background-color: red;
+    background-color: white;
+    color: black;
 }
 
 
@@ -46,10 +47,3 @@ footer{
     height: 100%;
 }
 
-
-@media (max-width: 320px){ /* hasta 320px hace esto */
-.caca{
-    background-color: re;
-    height: 5.625rem !important;
-}
-}
