@@ -40,9 +40,29 @@
 }
 
 
-.product-menu{
-    margin: .3125rem;
+.product-menu {
+    min-height: 220px; /* Altura mínima responsive */
+    position: relative;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
 }
+
+.product-menu:hover {
+    transform: translateY(-5px);
+}
+
+.text-shadow-1 {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    padding: 1.5rem;
+}
+
 
 footer{
     width: 100%;
